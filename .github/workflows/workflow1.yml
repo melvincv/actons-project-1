@@ -1,10 +1,6 @@
-name: Example Workflow
+name: lint-test-deploy
 
-on:
-  push:
-    branches: [ $default-branch ]
-  pull_request:
-    branches: [ $default-branch ]
+on: push
 
 jobs:
   lint-test-deploy:
